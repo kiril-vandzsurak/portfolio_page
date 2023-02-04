@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;800&display=swap");
 
 .navbarImg {
-  background-color: royalblue;
+  background-color: rgb(222, 222, 222);
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -12,9 +12,9 @@
 }
 
 .backgroundHomePart {
-  background-color: lightblue;
   height: 700px;
   text-align: center;
+  position: relative;
 }
 
 .centerNavbarInscription {
@@ -24,8 +24,10 @@
 }
 
 .centerJumbotronInscription {
-  position: relative;
+  position: absolute;
   top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .interFontLight {
@@ -37,11 +39,6 @@
   font-weight: 800;
 }
 
-.centerNavbarInscription:hover {
-  opacity: 0;
-  transition: all 1s;
-}
-
 .sticky {
   position: sticky;
   top: 0;
@@ -51,18 +48,18 @@
 .mouse {
   width: 25px;
   height: 40px;
-  border: solid black 2px;
+  border: solid rgb(222, 222, 222) 2px;
   border-radius: 20px;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 286px;
+  margin-top: 275px;
 }
 
 .mouseDot {
   width: 5px;
   height: 5px;
-  background-color: black;
+  background-color: rgb(222, 222, 222);
   border-radius: 50%;
   position: absolute;
   left: 50%;
@@ -79,6 +76,29 @@
   }
   to {
     top: 22px;
-    opacity: 0;
+    opacity: 0.2;
   }
+}
+
+.buttonStyle {
+  border: none;
+  height: 60px;
+  width: 240px;
+  background-color: rgb(222, 222, 222);
+  margin-top: 20px;
+  border-radius: 10px;
+  color: rgb(73, 70, 70);
+}
+
+.imgCover {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+
+.imgCoverNavbar {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
 }

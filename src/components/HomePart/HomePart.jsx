@@ -1,21 +1,29 @@
-import Button from "react-bootstrap/Button";
-
 const HomePart = () => {
   return (
-    <div className="backgroundHomePart ">
+    <div className="backgroundHomePart">
+      <img
+        className="imgCover"
+        src={window.location.origin + "/HomeImg.jpg"}
+        alt="img"
+      />
       <div className="centerJumbotronInscription ">
         <h1
           className="interFontBold"
-          style={{ fontSize: "50px", paddingTop: "40px" }}
+          style={{
+            fontSize: "50px",
+            paddingTop: "40px",
+            color: "rgb(222, 222, 222)",
+          }}
         >
           Hi! I'm Kiril Vandzsurak
         </h1>
-        <p style={{ fontSize: "20px" }} className="interFontLight">
+        <p
+          style={{ fontSize: "20px", color: "rgb(222, 222, 222)" }}
+          className="interFontLight"
+        >
           Young and motivated Full-Stack developer
         </p>
-        <Button style={{ marginTop: "20px" }} size="lg">
-          Here you will find my CV
-        </Button>{" "}
+        <button className="buttonStyle">Here you will find my CV</button>{" "}
         <div className="mouse">
           <div className="mouseDot"></div>
         </div>

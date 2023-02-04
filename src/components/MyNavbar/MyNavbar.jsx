@@ -12,7 +12,13 @@ const MyNavbar = () => {
         <Container className="d-flex justify-content-between">
           <Row>
             <Col>
-              <div className="navbarImg"></div>
+              <div className="navbarImg">
+                <img
+                  className="imgCoverNavbar"
+                  src={window.location.origin + "/MyPhoto.jpg"}
+                  alt="img"
+                />
+              </div>
             </Col>
           </Row>
           <Row>
@@ -23,11 +29,24 @@ const MyNavbar = () => {
                 id="basic-navbar-nav"
               >
                 <Nav className="me-auto" style={{ marginLeft: "auto" }}>
-                  <Nav.Link href="#home">HOME</Nav.Link>
-                  <Nav.Link href="#link" style={{ width: "94px" }}>
+                  <Nav.Link
+                    href="#home"
+                    style={{ color: "rgb(222, 222, 222)" }}
+                  >
+                    HOME
+                  </Nav.Link>
+                  <Nav.Link
+                    href="#link"
+                    style={{ width: "94px", color: "rgb(222, 222, 222)" }}
+                  >
                     ABOUT ME
                   </Nav.Link>
-                  <Nav.Link href="#link">PROJECTS</Nav.Link>
+                  <Nav.Link
+                    href="#link"
+                    style={{ color: "rgb(222, 222, 222)" }}
+                  >
+                    PROJECTS
+                  </Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Col>
