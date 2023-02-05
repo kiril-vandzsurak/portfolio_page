@@ -8,17 +8,14 @@ import "../../";
 const MyNavbar = () => {
   return (
     <div className="sticky">
-      <Navbar style={{ backgroundColor: "rgb(73, 70, 70)" }} expand="lg">
+      <Navbar style={{ backgroundColor: "rgb(22, 23, 27)" }} expand="lg">
         <Container className="d-flex justify-content-between">
           <Row>
-            <Col>
-              <div className="navbarImg">
-                <img
-                  className="imgCoverNavbar"
-                  src={window.location.origin + "/MyPhoto.jpg"}
-                  alt="img"
-                />
-              </div>
+            <Col
+              className="interFontBold"
+              style={{ color: "rgb(222, 222, 222)", cursor: "pointer" }}
+            >
+              <span style={{ color: "rgb(238, 255, 0)" }}>FS</span> FOREVER
             </Col>
           </Row>
           <Row>

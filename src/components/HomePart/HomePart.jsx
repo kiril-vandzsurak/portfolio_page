@@ -3,7 +3,7 @@ const HomePart = () => {
     <div className="backgroundHomePart">
       <img
         className="imgCover"
-        src={window.location.origin + "/HomeImg.jpg"}
+        src={window.location.origin + "/background.jpg"}
         alt="img"
       />
       <div className="centerJumbotronInscription ">
@@ -23,7 +23,9 @@ const HomePart = () => {
         >
           Young and motivated Full-Stack developer
         </p>
-        <button className="buttonStyle">Here you will find my CV</button>{" "}
+        <button className="buttonStyle interFontBold">
+          Here you will find my CV
+        </button>{" "}
         <div className="mouse">
           <div className="mouseDot"></div>
         </div>
