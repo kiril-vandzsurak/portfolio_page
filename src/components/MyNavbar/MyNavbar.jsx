@@ -28,7 +28,10 @@ const MyNavbar = () => {
           </Row>
           <Row>
             <Col>
-              <Navbar.Toggle aria-controls="basic-navbar-nav" />
+              <Navbar.Toggle
+                className="test"
+                aria-controls="basic-navbar-nav"
+              />
               <Navbar.Collapse
                 className="centerNavbarInscription"
                 id="basic-navbar-nav"

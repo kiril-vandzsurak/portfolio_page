@@ -11,7 +11,7 @@ const AboutMe = () => {
         <Row>
           <Col>
             <h3
-              style={{ color: "rgb(222, 222, 222)" }}
+              style={{ color: "rgb(222, 222, 222)", marginTop: "80px" }}
               className="interFontBold"
             >
               I CREATE{" "}
@@ -30,8 +30,71 @@ const AboutMe = () => {
               HTML/CSS, JavaScript, DOM Manipulation, Bootstrap, React, Redux
               and Type Script.
             </p>
+            <div className="horizontalLine"></div>
+            <h3 className="interFontBold skillsInscription">SKILLS</h3>
+            <Container>
+              <Row className="flex-column">
+                <Col>
+                  <img
+                    className="skillsImg"
+                    src={window.location.origin + "/html.png"}
+                    alt="img"
+                  />
+                  <img
+                    className="skillsImg"
+                    src={window.location.origin + "/css.png"}
+                    alt="img"
+                  />
+                  <img
+                    className="skillsImg"
+                    src={window.location.origin + "/git.png"}
+                    alt="img"
+                  />
+                </Col>
+                <Col>
+                  <img
+                    className="skillsImg"
+                    src={window.location.origin + "/js.png"}
+                    alt="img"
+                  />
+                  <img
+                    className="skillsImg"
+                    src={window.location.origin + "/nodejs.png"}
+                    alt="img"
+                  />
+                  <img
+                    className="skillsImg"
+                    src={window.location.origin + "/react.png"}
+                    alt="img"
+                  />
+                </Col>
+                <Col>
+                  <img
+                    className="skillsImg"
+                    src={window.location.origin + "/redux.png"}
+                    alt="img"
+                  />
+                  <img
+                    className="skillsImg"
+                    src={window.location.origin + "/ts.png"}
+                    alt="img"
+                  />
+                  <img
+                    className="skillsImg"
+                    src={window.location.origin + "/bootstrap.png"}
+                    alt="img"
+                  />
+                </Col>
+              </Row>
+            </Container>
           </Col>
-          <Col>2 of 2</Col>
+          <Col className="statsColumn">
+            <img
+              className="backgroundAbout"
+              src={window.location.origin + "/background.jpg"}
+              alt="img"
+            />
+          </Col>
         </Row>
       </Container>
     </div>
