@@ -91,7 +91,7 @@ const AboutMe = () => {
           <Col className="statsColumn">
             <img
               className="backgroundAbout"
-              src={window.location.origin + "/background.jpg"}
+              src={window.location.origin + "/bigImg.png"}
               alt="img"
             />
           </Col>
