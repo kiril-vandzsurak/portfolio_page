@@ -1,6 +1,6 @@
 const HomePart = () => {
   return (
-    <div className="backgroundHomePart">
+    <div className="backgroundHomePart" id="home">
       <img
         className="imgCover"
         src={window.location.origin + "/background.jpg"}

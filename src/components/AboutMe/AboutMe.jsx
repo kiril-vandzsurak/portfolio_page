@@ -4,8 +4,8 @@ import Col from "react-bootstrap/Col";
 
 const AboutMe = () => {
   return (
-    <div className="aboutMeDiv">
-      <p>ABOUT ME</p>
+    <div className="aboutMeDiv" id="about">
+      <p className="topName">ABOUT ME</p>
       <div className="line"></div>
       <Container style={{ paddingTop: "70px" }}>
         <Row>

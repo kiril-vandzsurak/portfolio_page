@@ -1,6 +1,7 @@
 import AboutMe from "./components/AboutMe/AboutMe";
 import HomePart from "./components/HomePart/HomePart";
 import MyNavbar from "./components/MyNavbar/MyNavbar";
+import MyProjects from "./components/MyProjects/MyProjects";
 import "./NavbarCSS.css";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <MyNavbar />
       <HomePart />
       <AboutMe />
+      <MyProjects />
     </div>
   );
 }

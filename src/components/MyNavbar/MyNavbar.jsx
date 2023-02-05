@@ -3,9 +3,17 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import "../../";
+import { Link } from "react-scroll";
 
 const MyNavbar = () => {
+  // const handleClickScroll = () => {
+  //   const element = document.getElementById('section-1');
+  //   if (element) {
+  //     // 👇 Will scroll smoothly to the top of the next section
+  //     element.scrollIntoView({ behavior: 'smooth' });
+  //   }
+  // };
+
   return (
     <div className="sticky">
       <Navbar style={{ backgroundColor: "rgb(22, 23, 27)" }} expand="lg">
@@ -30,19 +38,25 @@ const MyNavbar = () => {
                     href="#home"
                     style={{ color: "rgb(222, 222, 222)" }}
                   >
-                    HOME
+                    <Link to="home" spy={true} className="linkDecoration">
+                      HOME
+                    </Link>
                   </Nav.Link>
                   <Nav.Link
                     href="#link"
                     style={{ width: "94px", color: "rgb(222, 222, 222)" }}
                   >
-                    ABOUT ME
+                    <Link to="about" spy={true} className="linkDecoration">
+                      ABOUT ME
+                    </Link>
                   </Nav.Link>
                   <Nav.Link
                     href="#link"
                     style={{ color: "rgb(222, 222, 222)" }}
                   >
-                    PROJECTS
+                    <Link to="projects" spy={true} className="linkDecoration">
+                      PROJECTS
+                    </Link>
                   </Nav.Link>
                 </Nav>
               </Navbar.Collapse>
