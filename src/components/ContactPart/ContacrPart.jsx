@@ -10,12 +10,14 @@ const ContactPart = () => {
           src={window.location.origin + "/contact.jpg"}
           alt="img"
         />
+
         <p
-          style={{ display: "block", position: "absolute" }}
-          className="topName"
+          style={{ display: "block", position: "absolute", top: "-20px" }}
+          className="topName contactPosition"
         >
           CONTACT ME
         </p>
+
         <div className="contactForm">
           <Form>
             <Form.Group className="mb-3 borders" controlId="formBasicEmail">
