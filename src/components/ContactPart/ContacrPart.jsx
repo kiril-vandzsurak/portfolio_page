@@ -1,24 +1,55 @@
-import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
+import FloatingLabel from "react-bootstrap/FloatingLabel";
 
 const ContactPart = () => {
   return (
     <>
-      <div className="contactPart">
-        <img
-          className="backgroundContact"
-          src={window.location.origin + "/contact.jpg"}
-          alt="img"
-        />
+      <div className="contactDiv">
+        <p className="topName">CONTACT ME</p>
+        <div className="line"></div>
 
-        <p
-          style={{ display: "block", position: "absolute", top: "-20px" }}
-          className="topName contactPosition"
-        >
-          CONTACT ME
-        </p>
+        <div className="contactBackground">
+          <div className="formPosition">
+            <Form>
+              <Form.Group>
+                <Form.Control
+                  style={{
+                    borderRadius: "0px",
+                    marginBottom: "25px",
+                    marginTop: "60px",
+                  }}
+                  type="name"
+                  placeholder="Name"
+                />
+              </Form.Group>
 
-        <div className="contactForm">
+              <Form.Group controlId="formBasicEmail">
+                <Form.Control
+                  style={{ borderRadius: "0px" }}
+                  type="email"
+                  placeholder="Email"
+                />
+              </Form.Group>
+
+              <FloatingLabel controlId="floatingTextarea2" label="Message">
+                <Form.Control
+                  as="textarea"
+                  placeholder="Leave a comment here"
+                  style={{
+                    height: "100px",
+                    resize: "none",
+                    marginTop: "40px",
+                    borderRadius: "0px",
+                    marginBottom: "20px",
+                  }}
+                />
+              </FloatingLabel>
+              <button className="contactButton">Send</button>
+            </Form>
+          </div>
+        </div>
+
+        {/* <div className="contactForm">
           <Form>
             <Form.Group className="mb-3 borders" controlId="formBasicEmail">
               <Form.Label>Email address</Form.Label>
@@ -33,7 +64,7 @@ const ContactPart = () => {
               Submit
             </Button>
           </Form>
-        </div>
+        </div> */}
       </div>
     </>
   );

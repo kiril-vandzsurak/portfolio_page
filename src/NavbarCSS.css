@@ -116,11 +116,7 @@
   font-family: "Inter", sans-serif;
   color: white;
   letter-spacing: 8px;
-}
-
-.contactPosition {
-  left: 50%;
-  transform: translate(-50%);
+  text-align: center;
 }
 
 .line {
@@ -182,13 +178,6 @@
   margin-bottom: 30px;
 }
 
-.contactPart {
-  width: 100%;
-  height: 500px;
-  text-align: center;
-  position: relative;
-}
-
 .singleProjectDescription {
   color: rgb(222, 222, 222);
   background-color: #16171b;
@@ -219,22 +208,33 @@
   border-radius: 10px;
 }
 
-.contactForm {
-  width: 600px;
-  margin-inline: auto;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translateX(-50%) translateY(-50%);
-}
-
-.borders {
-  border-radius: 0px;
-}
-
-.backgroundContact {
+.contactDiv {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  filter: brightness(100%);
+  height: 700px;
+  background-color: #16171b;
+}
+
+.formPosition {
+  width: 76%;
+  margin-inline: auto;
+}
+
+.contactBackground {
+  background-color: #26272e;
+  width: 60%;
+  margin-inline: auto;
+  padding-bottom: 30px;
+  padding-top: 1px;
+  margin-top: 60px;
+}
+
+.contactButton {
+  width: 150px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  background-color: rgb(238, 255, 0);
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
 }
