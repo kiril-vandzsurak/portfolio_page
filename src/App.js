@@ -1,5 +1,6 @@
 import AboutMe from "./components/AboutMe/AboutMe";
 import ContactPart from "./components/ContactPart/ContacrPart";
+import Footer from "./components/Footer/Footer";
 import HomePart from "./components/HomePart/HomePart";
 import MyNavbar from "./components/MyNavbar/MyNavbar";
 import MyProjects from "./components/MyProjects/MyProjects";
@@ -13,6 +14,7 @@ function App() {
       <AboutMe />
       <MyProjects />
       <ContactPart />
+      <Footer />
     </div>
   );
 }
