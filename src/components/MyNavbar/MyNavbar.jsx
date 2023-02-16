@@ -61,6 +61,14 @@ const MyNavbar = () => {
                       PROJECTS
                     </Link>
                   </Nav.Link>
+                  <Nav.Link
+                    href="#contact"
+                    style={{ color: "rgb(222, 222, 222)" }}
+                  >
+                    <Link to="contact" spy={true} className="linkDecoration">
+                      CONTACT ME
+                    </Link>
+                  </Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Col>

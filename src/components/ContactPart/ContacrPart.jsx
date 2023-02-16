@@ -4,7 +4,7 @@ import FloatingLabel from "react-bootstrap/FloatingLabel";
 const ContactPart = () => {
   return (
     <>
-      <div className="contactDiv">
+      <div className="contactDiv" id="contact">
         <p className="topName">CONTACT ME</p>
         <div className="line"></div>
 
