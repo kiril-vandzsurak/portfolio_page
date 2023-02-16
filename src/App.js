@@ -8,7 +8,7 @@ import "./NavbarCSS.css";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ minWidth: "550px" }}>
       <MyNavbar />
       <HomePart />
       <AboutMe />

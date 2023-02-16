@@ -241,6 +241,92 @@
 
 .footerDiv {
   width: 100%;
-  height: 200px;
+  height: 250px;
   background-color: black;
+}
+
+.bottomFooter {
+  text-align: center;
+  margin-top: 16px;
+  padding-top: 36px;
+  border-top: 1px grey solid;
+  color: white;
+}
+
+.h1Home {
+  font-size: 50px;
+  padding-top: 40px;
+  color: rgb(222, 222, 222);
+}
+
+.pHome {
+  font-size: 20px;
+  color: rgb(222, 222, 222);
+}
+
+.h3About {
+  color: rgb(222, 222, 222);
+  margin-top: 80px;
+}
+
+@media only screen and (max-width: 576px) {
+  .h1Home {
+    font-size: 40px;
+  }
+
+  .pHome {
+    font-size: 15px;
+  }
+
+  .buttonStyle {
+    height: 40px;
+    width: 140px;
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .h1Home {
+    font-size: 45px;
+  }
+
+  .pHome {
+    font-size: 17px;
+  }
+
+  .buttonStyle {
+    height: 60px;
+    width: 180px;
+    font-size: 14px;
+  }
+}
+
+.directionAbout {
+  flex-direction: row;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .h3About {
+    margin-top: 28px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .h3About {
+    margin-top: 23px;
+  }
+
+  .aboutMeDiv {
+    height: 1215px;
+  }
+
+  .directionAbout {
+    flex-direction: column;
+  }
+
+  .backgroundAbout {
+    margin-top: 30px;
+    width: 438px;
+    height: 348px;
+  }
 }

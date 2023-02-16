@@ -7,20 +7,8 @@ const HomePart = () => {
         alt="img"
       />
       <div className="centerJumbotronInscription ">
-        <h1
-          className="interFontBold"
-          style={{
-            fontSize: "50px",
-            paddingTop: "40px",
-            color: "rgb(222, 222, 222)",
-          }}
-        >
-          Hi! I'm Kiril Vandzsurak
-        </h1>
-        <p
-          style={{ fontSize: "20px", color: "rgb(222, 222, 222)" }}
-          className="interFontLight"
-        >
+        <h1 className="interFontBold h1Home">Hi! I'm Kiril Vandzsurak</h1>
+        <p className="interFontLight pHome">
           Young and motivated Full-Stack developer
         </p>
         <button className="buttonStyle interFontBold">

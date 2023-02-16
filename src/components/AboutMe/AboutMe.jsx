@@ -8,12 +8,9 @@ const AboutMe = () => {
       <p className="topName">ABOUT ME</p>
       <div className="line"></div>
       <Container style={{ paddingTop: "70px" }}>
-        <Row>
+        <Row className="directionAbout">
           <Col>
-            <h3
-              style={{ color: "rgb(222, 222, 222)", marginTop: "80px" }}
-              className="interFontBold"
-            >
+            <h3 className="interFontBold h3About">
               I CREATE{" "}
               <span style={{ color: "rgb(238, 255, 0)" }}>
                 FULLY FUNCTIONAL WEB-SITES
@@ -88,7 +85,7 @@ const AboutMe = () => {
               </Row>
             </Container>
           </Col>
-          <Col className="statsColumn">
+          <Col>
             <img
               className="backgroundAbout"
               src={window.location.origin + "/bigImg.png"}
