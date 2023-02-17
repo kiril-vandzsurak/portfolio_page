@@ -33,19 +33,14 @@ const MyProjects = () => {
             </Col>
             <Col className="d-flex align-items-center">
               <div className="singleProjectDescription interFontLight">
-                <h3
-                  className="interFontBold"
-                  style={{ color: "rgb(238, 255, 0)" }}
-                >
-                  LinkedIn Clone
-                </h3>
-                <p>
+                <h3 className="interFontBold h3ProjectName">LinkedIn Clone</h3>
+                <p className="projectDescription">
                   LinkedIn project built on React.js, Redux and Bootstrap 5.
                   Recently created database on MongoDB. Feel free to check my
                   GitHub profile
                 </p>
                 <a
-                  className="buttonProject "
+                  className="buttonProject"
                   href="https://github.com/kiril-vandzsurak/LinkedIn-Clone-Proj"
                   target="_blank"
                   rel="noreferrer"

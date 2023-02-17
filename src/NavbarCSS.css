@@ -386,4 +386,47 @@
   .projectsDiv {
     height: 2900px;
   }
+
+  .contactBackground {
+    width: 75%;
+  }
+}
+
+.h3ProjectName {
+  color: rgb(238, 255, 0);
+}
+
+.projectDescription {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+  .backgroundAbout {
+    width: 360px;
+    height: 245px;
+  }
+
+  .projectPhoto {
+    width: 516px;
+    height: 320px;
+  }
+
+  .h3ProjectName {
+    font-size: 20px;
+  }
+
+  .projectDescription {
+    font-size: 12px;
+  }
+
+  .buttonProject {
+    width: 270px;
+  }
+
+  .projectsDiv {
+    height: 2550px;
+  }
+  .contactBackground {
+    width: 95%;
+  }
 }
