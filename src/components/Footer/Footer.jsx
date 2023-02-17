@@ -39,7 +39,11 @@ const Footer = () => {
                     </a>
                   </Col>
                   <Col className="col-3">
-                    <a href="google.com" target="_blank" rel="noreferrer">
+                    <a
+                      href="https://www.linkedin.com/in/kiril-vandzsurak-537725217/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <img
                         className="skillsImg"
                         src={window.location.origin + "/linkedin-6-48.png"}

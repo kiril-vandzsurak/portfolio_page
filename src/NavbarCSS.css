@@ -187,8 +187,10 @@
 }
 
 .projectPhoto {
+  display: block;
   width: 600px;
   height: 400px;
+  border-radius: 20px;
 }
 
 .projectPhoto img {
@@ -305,9 +307,40 @@
   flex-direction: row;
 }
 
+/* .projectPhoto {
+  display: block;
+  width: 600px;
+  height: 400px;
+  border-radius: 20px;
+} */
+
+/* .singleProjectDescription {
+  color: rgb(222, 222, 222);
+  background-color: #16171b;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+} */
+
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .h3About {
     margin-top: 28px;
+  }
+
+  .projectPhoto {
+    margin-inline: auto;
+    width: 750px;
+    height: 460px;
+  }
+
+  .singleProjectDescription {
+    width: 756px;
+    margin-top: 20px;
+    margin-inline: auto;
+  }
+
+  .projectsDiv {
+    height: 3100px;
   }
 }
 
@@ -328,5 +361,29 @@
     margin-top: 30px;
     width: 438px;
     height: 348px;
+  }
+
+  .projectPhoto {
+    margin-inline: auto;
+  }
+
+  .singleProjectDescription {
+    width: 605px;
+    margin-top: 20px;
+    margin-inline: auto;
+  }
+
+  .projectPhoto {
+    margin-inline: auto;
+  }
+
+  .singleProjectDescription {
+    width: 605px;
+    margin-top: 20px;
+    margin-inline: auto;
+  }
+
+  .projectsDiv {
+    height: 2900px;
   }
 }

@@ -23,8 +23,12 @@ const MyProjects = () => {
         <Container>
           <Row className="mb-5">
             <Col>
-              <div className="projectPhoto">
-                <img src={window.location.origin + "/HomeImg.jpg"} alt="img" />
+              <div>
+                <img
+                  className="projectPhoto"
+                  src={window.location.origin + "/HomeImg.jpg"}
+                  alt="img"
+                />
               </div>
             </Col>
             <Col className="d-flex align-items-center">
@@ -53,8 +57,12 @@ const MyProjects = () => {
           </Row>
           <Row className="mb-5">
             <Col>
-              <div className="projectPhoto">
-                <img src={window.location.origin + "/HomeImg.jpg"} alt="img" />
+              <div>
+                <img
+                  className="projectPhoto"
+                  src={window.location.origin + "/HomeImg.jpg"}
+                  alt="img"
+                />
               </div>
             </Col>
             <Col className="d-flex align-items-center">
@@ -83,8 +91,12 @@ const MyProjects = () => {
           </Row>
           <Row className="mb-5">
             <Col>
-              <div className="projectPhoto">
-                <img src={window.location.origin + "/HomeImg.jpg"} alt="img" />
+              <div>
+                <img
+                  className="projectPhoto"
+                  src={window.location.origin + "/HomeImg.jpg"}
+                  alt="img"
+                />
               </div>
             </Col>
             <Col className="d-flex align-items-center">
@@ -113,8 +125,12 @@ const MyProjects = () => {
           </Row>
           <Row className="mb-5">
             <Col>
-              <div className="projectPhoto">
-                <img src={window.location.origin + "/HomeImg.jpg"} alt="img" />
+              <div>
+                <img
+                  className="projectPhoto"
+                  src={window.location.origin + "/HomeImg.jpg"}
+                  alt="img"
+                />
               </div>
             </Col>
             <Col className="d-flex align-items-center">
