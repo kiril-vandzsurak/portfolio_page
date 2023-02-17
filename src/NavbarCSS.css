@@ -344,6 +344,11 @@
   }
 }
 
+.iconsMargin {
+  margin-right: 15px;
+  display: block;
+}
+
 @media only screen and (max-width: 992px) {
   .h3About {
     margin-top: 23px;
@@ -390,6 +395,14 @@
   .contactBackground {
     width: 75%;
   }
+
+  .footerDirection {
+    flex-direction: column;
+  }
+
+  .footerDiv {
+    height: 387px;
+  }
 }
 
 .h3ProjectName {
@@ -399,6 +412,10 @@
 .projectDescription {
   font-size: 16px;
 }
+
+/* .footerDirection {
+  flex-direction: row;
+} */
 
 @media only screen and (max-width: 768px) {
   .backgroundAbout {
@@ -428,5 +445,36 @@
   }
   .contactBackground {
     width: 95%;
+  }
+
+  .footerDirection {
+    flex-direction: column;
+  }
+
+  .footerDiv {
+    height: 465px;
+  }
+}
+
+/* .mouse {
+  width: 30px;
+  height: 50px;
+  border: solid rgb(222, 222, 222) 2px;
+  border-radius: 20px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 240px;
+} */
+
+@media only screen and (max-width: 1138px) {
+  .mouse {
+    margin-top: 194px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 790px) {
+  .mouse {
+    margin-top: 158px;
   }
 }

@@ -7,7 +7,7 @@ const Footer = () => {
     <>
       <div className="footerDiv">
         <Container>
-          <Row>
+          <Row className="footerDirection">
             <Col className="col-8 mt-4">
               <h2 className="interFontBold" style={{ color: "white" }}>
                 Kiril Vandzsurak
@@ -24,7 +24,7 @@ const Footer = () => {
               </h2>
               <Container>
                 <Row>
-                  <Col className="col-3">
+                  <Col className="col-3 iconsMargin">
                     <a
                       href="https://www.google.pl/"
                       target="_blank"
@@ -38,7 +38,7 @@ const Footer = () => {
                       />
                     </a>
                   </Col>
-                  <Col className="col-3">
+                  <Col className="col-3 iconsMargin">
                     <a
                       href="https://www.linkedin.com/in/kiril-vandzsurak-537725217/"
                       target="_blank"
@@ -52,7 +52,7 @@ const Footer = () => {
                       />
                     </a>
                   </Col>
-                  <Col className="col-3">
+                  <Col className="col-3 iconsMargin">
                     <a href="google.com" target="_blank" rel="noreferrer">
                       <img
                         className="skillsImg"
