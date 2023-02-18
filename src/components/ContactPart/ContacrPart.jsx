@@ -1,7 +1,30 @@
 import Form from "react-bootstrap/Form";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const ContactPart = () => {
+  const form = useRef();
+
+  const sendMail = (e) => {
+    emailjs
+      .sendForm(
+        "service_fer6l2p",
+        "template_vu2nljv",
+        e.target,
+        "F9fx63y-nDgFVwM6Y",
+        form
+      )
+      .then(
+        (result) => {
+          console.log("SUCCESS!", result.text);
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+    e.target.reset();
+  };
   return (
     <>
       <div className="contactDiv" id="contact">
@@ -10,7 +33,7 @@ const ContactPart = () => {
 
         <div className="contactBackground">
           <div className="formPosition">
-            <Form>
+            <Form ref={form} onSubmit={() => sendMail()}>
               <Form.Group>
                 <Form.Control
                   style={{
@@ -44,27 +67,12 @@ const ContactPart = () => {
                   }}
                 />
               </FloatingLabel>
-              <button className="contactButton">Send</button>
+              <button type="submit" className="contactButton">
+                Send
+              </button>
             </Form>
           </div>
         </div>
-
-        {/* <div className="contactForm">
-          <Form>
-            <Form.Group className="mb-3 borders" controlId="formBasicEmail">
-              <Form.Label>Email address</Form.Label>
-              <Form.Control type="email" placeholder="Enter email" />
-            </Form.Group>
-
-            <Form.Group className="mb-3" controlId="formBasicPassword">
-              <Form.Label>Password</Form.Label>
-              <Form.Control type="password" placeholder="Password" />
-            </Form.Group>
-            <Button variant="primary" type="submit">
-              Submit
-            </Button>
-          </Form>
-        </div> */}
       </div>
     </>
   );
