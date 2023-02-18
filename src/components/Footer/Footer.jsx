@@ -13,9 +13,9 @@ const Footer = () => {
                 Kiril Vandzsurak
               </h2>
               <p interFontLight style={{ color: "white" }}>
-                Young and motivated Full-Stack developer Lorem ipsum dolor, sit
-                amet consectetur adipisicing elit. Ad, vitae reprehenderit
-                natus, dolorum, odit incidunt.
+                Young and motivated Full-Stack developer. If you have any
+                questions, you can contact me using the form above. <br /> With
+                big pleasure will answer them!
               </p>
             </Col>
             <Col className="col-4 mt-4">
@@ -26,7 +26,7 @@ const Footer = () => {
                 <Row>
                   <Col className="col-3 iconsMargin">
                     <a
-                      href="https://www.google.pl/"
+                      href="https://github.com/kiril-vandzsurak"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -53,7 +53,11 @@ const Footer = () => {
                     </a>
                   </Col>
                   <Col className="col-3 iconsMargin">
-                    <a href="google.com" target="_blank" rel="noreferrer">
+                    <a
+                      href="https://discord.com/users/454007211853742094"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <img
                         className="skillsImg"
                         src={window.location.origin + "/discord-2-48.png"}

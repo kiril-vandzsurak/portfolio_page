@@ -11,9 +11,15 @@ const HomePart = () => {
         <p className="interFontLight pHome">
           Young and motivated Full-Stack developer
         </p>
-        <button className="buttonStyle interFontBold">
-          Here you will find my CV
-        </button>{" "}
+        <a
+          href="https://drive.google.com/file/d/1vVEkdHXU-RHiAQ2H83dxNXBiGwlfaU7n/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className="buttonStyle interFontBold">
+            Here you will find my CV
+          </button>{" "}
+        </a>
         <div className="mouse">
           <div className="mouseDot"></div>
         </div>
