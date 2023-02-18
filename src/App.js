@@ -12,7 +12,7 @@ function App() {
     <div className="App" style={{ minWidth: "550px" }}>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Kiril Vandzsurak</title>
+        <title>Kiril Vandzsurak | Full-Stack developer</title>
         <link
           rel="canonical"
           href="https://kiril-vandzsurak-66uevc4tx-kiril-vandzsurak.vercel.app/"
