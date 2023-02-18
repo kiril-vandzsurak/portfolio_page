@@ -24,6 +24,8 @@ const ContactPart = () => {
           console.log(error.text);
         }
       );
+    alert("Your message is sent! Thank you!");
+    e.target.reset();
   };
 
   return (
