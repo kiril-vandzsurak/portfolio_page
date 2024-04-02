@@ -17,15 +17,11 @@ const AboutMe = () => {
               </span>
             </h3>
             <p className="interFontLight infoText">
-              Aspiring student of EPICODE Bootcamp, getting experience in
-              Full-Stack Development Sphere. Recently, I pivoted my career from
-              Computer and Electronic Engineering to Web Development due to my
-              passion to creating web-sites and help people unleash their
-              fantasies in Web World. Currently, I am finishing a Front-End
-              Development part of studying. Next year, I will dive into the
-              world of Back-End. On the client-side part, my skills are
-              HTML/CSS, JavaScript, DOM Manipulation, Bootstrap, React, Redux
-              and Type Script.
+              Currently residing in Warsaw, I am a first-year student at the
+              Polish-Japanese Academy of Informational Technology. Having
+              graduated from a Full-Stack development course in 2023, I bring a
+              strong foundation in web development and a passion for learning
+              new technologies.
             </p>
             <div className="horizontalLine"></div>
             <h3 className="interFontBold skillsInscription">SKILLS</h3>

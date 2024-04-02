@@ -12,7 +12,11 @@ const HomePart = () => {
           Young and motivated Full-Stack developer
         </p>
         <a
+<<<<<<< Updated upstream
           href="https://drive.google.com/file/d/1t5YoEpTydbQjAIjUFH8VWuvyPaB0XIJK/view?usp=sharing"
+=======
+          href="https://drive.google.com/file/d/1OVP5nZY-NsxCU091Jq74XXz_K4OKHEgj/view?usp=drive_link"
+>>>>>>> Stashed changes
           target="_blank"
           rel="noreferrer"
         >
