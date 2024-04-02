@@ -13,6 +13,7 @@ const HomePart = () => {
         </p>
         <a
           href="https://drive.google.com/file/d/1OVP5nZY-NsxCU091Jq74XXz_K4OKHEgj/view?usp=drive_link"
+          //link to my CV
           target="_blank"
           rel="noreferrer"
         >
