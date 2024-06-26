@@ -12,7 +12,7 @@ const HomePart = () => {
           Young and motivated Full-Stack developer
         </p>
         <a
-          href="https://drive.google.com/file/d/1OVP5nZY-NsxCU091Jq74XXz_K4OKHEgj/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1mT5OEplgN1tWpasInKRi7oV-5HdDPOEF/view?usp=sharing"
           //link to my CV
           target="_blank"
           rel="noreferrer"
