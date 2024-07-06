@@ -17,11 +17,12 @@ const AboutMe = () => {
               </span>
             </h3>
             <p className="interFontLight infoText">
-              Currently residing in Warsaw, I am a first-year student at the
+              Currently residing in Warsaw, I am a second-year student at the
               Polish-Japanese Academy of Informational Technology. Having
               graduated from a Full-Stack development course in 2023, I bring a
               strong foundation in web development and a passion for learning
-              new technologies.
+              new technologies. Authorized to work and live in the USA (U4U program).
+              Ready to relocate!
             </p>
             <div className="horizontalLine"></div>
             <h3 className="interFontBold skillsInscription">SKILLS</h3>
